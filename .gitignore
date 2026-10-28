@@ -1,0 +1,19 @@
+# 密钥，绝对不能上传
+.env
+
+# 虚拟环境
+.venv/
+
+# Python 缓存
+__pycache__/
+*.pyc
+
+# 从 Notion 导出的私人设定数据，不上传
+data/
+
+# 个人笔记和学习资料（含小说内容和个人信息），不上传
+CLAUDE.md
+INTERVIEW.md
+LEARNING.md
+_old_version/
+.vscode/
